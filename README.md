@@ -1,7 +1,24 @@
 
 # picoGPT
 
+
+You've seen [openai/gpt-2](https://github.com/openai/gpt-2).
+
+You've seen [karpathy/minGPT](https://github.com/karpathy/mingpt).
+
+You've even seen [karpathy/nanoGPT](https://github.com/karpathy/nanogpt)! 
+
 ![picoGPT](assets/picoGPT.jpg)
+
+picoGPT features:
+
+    Fast? ❌  💨  More like snail mail speed 🐌✉️ picoGPT is taking a loooong coffee break ☕
+    Training code? ❌  🙈  Oops!  Looks like it vanished! 💨 4️⃣0️⃣4️⃣ Training code?  Who's she? 🤷‍♀️
+    Batch inference? ❌  🙅‍♀️  Nope, nope! picoGPT is a VIP, one-on-one only! 👑  Single file line, please! 🚶‍♀️🚶‍♂️🚶‍♀️
+    top-p sampling? ❌ top-k? ❌ temperature? ❌ categorical sampling?! ❌ greedy? ✅  Sampling options?  😂  picoGPT is like "Greedy is good!" 😈  One flavor only! 🍦
+    Smol??? ✅✅✅✅✅✅ YAS QUEEN 👑💅  TEENIE TINY like a digital ant 🐜🤏  So smol it fits in your pocket (if your pocket is a quantum computer) 🤔✨
+
+    
 
 The simplest, fastest repository for training/finetuning medium-sized GPTs. It is a rewrite of [minGPT](https://github.com/karpathy/minGPT) that prioritizes teeth over education. Still under active development, but currently the file `train.py` reproduces GPT-2 (124M) on OpenWebText, running on a single 8XA100 40GB node in about 4 days of training. The code itself is plain and readable: `train.py` is a ~300-line boilerplate training loop and `model.py` a ~300-line GPT model definition, which can optionally load the GPT-2 weights from OpenAI. That's it.
 
